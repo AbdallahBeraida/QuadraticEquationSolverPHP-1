@@ -32,9 +32,6 @@ if ($discriminant < 0)
 	$a = 2 * $a;
 	$imaginarycomponent = sqrt(-$discriminant);
 	echo "<h2>Code/QuadraticEquationSolver: Here are the imaginary solutions to the equation</h2>";
-	//echo "Imaginary solutions are not possible yet...";
-	//echo "<html><br><br></html>";
-	//resultLabel2.Text = String.Format("x1 = [({0} + ({1:N4})i)/{2}]", b, imaginaryComponent, a);
 	echo "x1 = [($b + (($imaginarycomponent)i)/$a]";
 	echo "<html><br><br></html>";
 	echo "x2 = [($b - (($imaginarycomponent)i)/$a]";
